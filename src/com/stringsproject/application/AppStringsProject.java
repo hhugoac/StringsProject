@@ -11,6 +11,7 @@ public class AppStringsProject {
 		String cadena3=" Mundo";
 		String cadena4="Hola";
 		String[] cadena6=new String[50];
+		String cadena7="      Hola Mundo	   ";
 		
 		System.out.println("La cantidad de caracteres es "+ cadena.length());
 		System.out.println("El cuarto caracter de la cadena es "+cadena.charAt(5));
@@ -79,8 +80,19 @@ public class AppStringsProject {
 		System.out.println("Cadena en mayusculas: "+cadena2.toUpperCase());
 		System.out.println("Cadena en minusculas: "+cadena2.toLowerCase());
 		
+		System.out.println("Cadena en minusculas: "+cadena7.trim());
+		String cadena8="";
+		System.out.println(cadena8.valueOf(true));
 		
+		char caracter='c';
+		//cadena8=caracter;
+		cadena8=cadena.valueOf(caracter);
+		System.out.println(cadena8.valueOf('8'));
 		
+		double num=120.2;
+		String cadena9="";
+		cadena9=cadena9.valueOf(num);
+		System.out.println(cadena9);
 	}
 
 }
