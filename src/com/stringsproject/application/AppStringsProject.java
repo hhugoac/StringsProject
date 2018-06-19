@@ -71,6 +71,15 @@ public class AppStringsProject {
 			System.out.println("Cadena["+i+"]:"+cadena6[i]);
 		}
 		
+		System.out.println("La cadena comienza con la frase:"+cadena2.startsWith("Th"));
+		System.out.println(cadena2.subSequence(10,100));
+		System.out.println(cadena2.substring(100));
+		System.out.println(cadena2.substring(20, 100));
+		
+		System.out.println("Cadena en mayusculas: "+cadena2.toUpperCase());
+		System.out.println("Cadena en minusculas: "+cadena2.toLowerCase());
+		
+		
 		
 	}
 
